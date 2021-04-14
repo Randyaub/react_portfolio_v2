@@ -1,0 +1,147 @@
+:root {
+  --primary-colour-1: #faecd8;
+  --primary-colour-2: #ffcdab;
+  --primary-colour-3: #ffa45c;
+  --primary-colour-4: #2c3e50;
+  --primary-font-colour: #2c3e50;
+  --secondary-font-colour: #f9f1f1;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--primary-font-colour);
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  background-color: var(--secondary-font-colour);
+}
+
+button {
+  background-color: var(--primary-colour-3);
+  border: none;
+  color: var(--secondary-font-colour);
+  padding: 11px 16px;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-align-ctr {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-space-btw {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-space-around {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+section {
+  margin: 0px auto;
+  max-width: 1400px;
+  padding: 0px 100px;
+}
+
+.section__title {
+  font-family: "Playfair Display", san-serif;
+  font-size: 20vw;
+  letter-spacing: 1vw;
+}
+
+.section__subtitle {
+  font-size: 10vw;
+  letter-spacing: normal;
+}
+
+.section__title,
+.section__subtitle {
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+  line-height: 20vw;
+  color: rgba(78, 57, 28, 0.08);
+  user-select: none;
+}
+
+.social__icons {
+  fill: var(--secondary-font-colour);
+}
+
+.social__icons-reverse {
+  fill: var(--primary-colour-4);
+}
+
+.social__icons:hover {
+  stroke: var(--primary-colour-4);
+}
+
+@media screen and (max-width: 1200px) {
+  section {
+    padding: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  section {
+    padding: 0px 20px;
+  }
+}

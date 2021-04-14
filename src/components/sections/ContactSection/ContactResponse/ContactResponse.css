@@ -1,0 +1,11 @@
+.c-ContactResponse {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 15px 0px 15px;
+  max-width: 470px;
+}
+
+.c-ContactResponse__message {
+  color: orangered;
+}

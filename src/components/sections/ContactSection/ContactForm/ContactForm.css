@@ -1,0 +1,48 @@
+.c-ContactForm__btn {
+  display: flex;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.c-ContactForm__btn > span {
+  color: var(--secondary-font-colour);
+}
+
+.c-ContactForm__input {
+  border: none;
+  font-size: 1em;
+  height: 40px;
+  padding: 0px 10px;
+  outline: none;
+  width: 470px;
+}
+
+.c-ContactForm__label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.c-ContactForm__text {
+  display: block;
+  margin-bottom: 14px;
+}
+
+.c-ContactForm__textbox {
+  border: none;
+  font-size: 16px;
+  height: 143px;
+  padding: 10px 10px;
+  outline: none;
+  resize: none;
+  width: 470px;
+}
+
+@media screen and (max-width: 550px) {
+  .c-ContactForm__input,
+  .c-ContactForm__textbox {
+    width: 100%;
+  }
+  .c-ContactForm__btn {
+    margin: 0 auto;
+  }
+}

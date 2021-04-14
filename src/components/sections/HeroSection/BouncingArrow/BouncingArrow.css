@@ -1,0 +1,20 @@
+.l-BouncingArrow {
+  bottom: 70px;
+  position: absolute;
+}
+
+.c-BouncingArrow {
+  transition: 0.1s ease-in;
+}
+
+.c-BouncingArrow__arrow {
+  font-size: 2.5em;
+  fill: var(--primary-colour-3);
+}
+
+@media only screen and (max-height: 900px) {
+  .c-BouncingArrow {
+    visibility: hidden;
+    opacity: 0;
+  }
+}

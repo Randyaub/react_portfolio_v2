@@ -1,0 +1,21 @@
+.c-ProjectSection__content {
+  margin: 250px 0px 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .c-ProjectSection__content {
+    margin: 150px 0px 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .c-Project {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .c-ProjectSection__content {
+    margin: 100px 0px 100px;
+  }
+}

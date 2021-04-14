@@ -1,0 +1,74 @@
+.c-AboutMeSection__content {
+  margin: 250px 0px;
+}
+
+.c-AboutMeSection__btn {
+  margin-right: 14px;
+  padding: 12px 16px;
+  background-color: var(--primary-colour-3);
+  border-radius: 30px;
+}
+
+.c-AboutMeSection__btn > span {
+  margin-right: 14px;
+  color: var(--secondary-font-colour);
+}
+
+.c-AboutMeSection__image {
+  margin-left: 50px;
+}
+
+.c-AboutMeSection__title {
+  font-size: 1.5em;
+}
+
+.c-AboutMeSection__subtitle {
+  font-size: 1.3em;
+}
+
+.c-AboutMeSection__paragraph,
+.c-AboutMeSection__paragraph2 {
+  line-height: 22px;
+
+  margin: 13px 0px;
+  max-width: 550px;
+}
+
+@media screen and (max-width: 1200px) {
+  .c-AboutMeSection__content {
+    flex-direction: column;
+    margin: 150px 0px;
+  }
+  .c-AboutMeSection__image {
+    margin-left: 0px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .c-AboutMeSection__image {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .c-AboutSection {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .l-AboutMeSection__btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .c-AboutMeSection__btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}

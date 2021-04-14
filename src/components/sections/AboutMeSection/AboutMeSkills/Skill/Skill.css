@@ -1,0 +1,16 @@
+.c-Skill {
+  flex-direction: column;
+  margin: 0px 15px;
+  width: 70px;
+}
+
+.c-Skill__image {
+  height: 70px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.c-Skill__text {
+  font-weight: bold;
+  color: var(--primary-colour-4);
+}

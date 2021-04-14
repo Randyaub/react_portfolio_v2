@@ -1,0 +1,10 @@
+.c-NavigationButton {
+  background-color: var(--primary-colour-3);
+  font-size: 1.1em;
+  width: 175px;
+}
+
+.c-NavigationButton__text {
+  font-weight: bold;
+  color: var(--secondary-font-colour);
+}
