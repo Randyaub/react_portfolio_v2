@@ -11,8 +11,8 @@ const ProjectSection = () => {
   return (
     <>
       {/*Element is for react-scroll*/}
-      <Element name="scrollToProjects" />
       <h2 className="section__title">Projects</h2>
+      <Element name="scrollToProjects" />
       <section className="c-ProjectSection">
         <div className="c-ProjectSection__content">
           <ul>

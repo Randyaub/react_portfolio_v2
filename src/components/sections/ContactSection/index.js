@@ -37,8 +37,8 @@ const ContactSection = () => {
   return (
     <>
       {/*Element is for react-scroll*/}
-      <Element name="scrollToContacts" />
       <h2 className="section__title">Contact</h2>
+      <Element name="scrollToContacts" />
       <section className="c-ContactSection">
         <div className="c-ContactSection__content flex flex-center">
           <div className="c-ContactSection__form">

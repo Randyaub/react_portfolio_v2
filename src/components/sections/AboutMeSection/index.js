@@ -24,8 +24,8 @@ const AboutMeSection = () => {
   return (
     <>
       {/*Element is for react-scroll*/}
-      <Element name="scrollToAbout" />
       <h2 className="section__title">About</h2>
+      <Element name="scrollToAbout" />
       <section className="c-AboutSection">
         <ScrollOnView reverse>
           <div className="c-AboutMeSection__content flex flex-center">
