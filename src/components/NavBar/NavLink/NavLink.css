@@ -21,4 +21,8 @@
   .c-NavLink__text {
     color: var(--secondary-font-colour);
   }
+
+  .c-NavLink__text:hover {
+    color: unset;
+  }
 }
